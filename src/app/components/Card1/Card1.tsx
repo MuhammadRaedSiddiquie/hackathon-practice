@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { FaStar } from "react-icons/fa";
 
-function Card1({ image, title, price, discount, rating }) {
+function Card1({ image, title, price, discount, rating }:{ image:string, title:string, price:number, discount:number, rating:number }) {
     return (
         <div className='flex flex-col gap-[16px] bg-white min-w-[270px] h-fit pb-2'>
             <div className='w-full min-h-[250px]'>
