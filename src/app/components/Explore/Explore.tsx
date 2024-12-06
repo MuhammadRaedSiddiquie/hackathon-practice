@@ -11,8 +11,8 @@ function Explore() {
                 <div className='h-[110px] w-full flex justify-between items-end'>
                     <div className='w-full h-full flex gap-[90px] items-center'>
                         <div className='w-fit h-full flex flex-col items-start justify-between'>
-                            <h4 className='poppins-semibold text-base text-[#DB4444] px-4 py-1.5 border-l-[14px] rounded-[2px] border-[#DB4444]'>Our Products</h4>
-                            <h1 className='poppins-semibold text-[36px] text-black'>Explore Our Products</h1>
+                            <h4 className='poppins-semibold text-base text-[#DB4444] px-4 py-1.5 border-l-[14px] rounded-[2px] border-[#DB4444]  xl:text-xl xxl:text-2xl'>Our Products</h4>
+                            <h1 className='poppins-semibold text-[36px] text-black xl:text-[42px] xxl:text-5xl'>Explore Our Products</h1>
                         </div>
 
                         

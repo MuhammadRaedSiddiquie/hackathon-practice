@@ -7,10 +7,10 @@ export default function Header() {
             <div className='w-full h-[48px] bg-black flex items-center justify-center relative'>
                 <div className='w-[60%] h-full flex items-center justify-center'>
                     <div className='flex gap-2'>
-                        <p className='text-white text-sm poppins-regular'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
-                        <h3 className='text-white text-sm font-bold poppins-regular'>Shop now</h3>
+                        <p className='text-white text-sm poppins-regular xl:text-lg xxl:text-xl'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+                        <h3 className='text-white text-sm font-bold poppins-regular xl:text-lg xxl:text-xl'>Shop now</h3>
                     </div>
-                    <select className='bg-black text-white text-sm poppins-regular absolute right-[150px]' name="lang" >
+                    <select className='bg-black text-white text-sm poppins-regular absolute right-[150px] xl:text-lg xxl:text-xl' name="lang" >
                         <option value="eng">English</option>
                     </select>
                 </div>
@@ -21,10 +21,10 @@ export default function Header() {
                     <Image className='absolute' src={"/images/logo.svg"} layout={'fill'} alt={'logo'}></Image>
                 </div>
                 <ul className='flex w-[67%] h-full items-center justify-between'>
-                    <li className='text-sm text-black poppins-regular'>Home</li>
-                    <li className='text-sm text-black poppins-regular'>Contact</li>
-                    <li className='text-sm text-black poppins-regular'>About</li>
-                    <li className='text-sm text-black poppins-regular'>Signup</li>
+                    <li className='text-sm text-black poppins-regular xl:text-xl xxl:text-2xl'>Home</li>
+                    <li className='text-sm text-black poppins-regular xl:text-xl xxl:text-2xl'>Contact</li>
+                    <li className='text-sm text-black poppins-regular xl:text-xl xxl:text-2xl'>About</li>
+                    <li className='text-sm text-black poppins-regular xl:text-xl xxl:text-2xl'>Signup</li>
                 </ul>
                 </div>
                 <div className='w-[36%] h-full flex justify-between items-center'>
